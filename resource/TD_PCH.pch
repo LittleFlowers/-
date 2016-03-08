@@ -1,0 +1,19 @@
+//
+//  TD_PCH.pch
+//  TwoDogsNote
+//
+//  Created by 小菊花 on 16/1/8.
+//  Copyright © 2016年 小菊花. All rights reserved.
+//
+
+#ifndef TD_PCH_pch
+#define TD_PCH_pch
+
+//屏幕的尺寸
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+//屏幕的高
+#define SCREEN_HEIGHT CGRectGetHeight([UIScreen mainScreen].bounds)
+//屏幕的宽
+#define SCREEN_WEIDTH CGRectGetWidth([UIScreen mainScreen].bounds)
+
+#endif /* TD_PCH_pch */
